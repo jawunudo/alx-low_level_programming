@@ -1,12 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints alphabets A to Z in lower case
+ *
  * return: 0
  */
 int main(void)
 {
-	int (x) = ('A'; x <= 'Z'; x++);
-	int (x) = tolower(x);
-	putchar(lower_x);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
 	return 0;
 }
