@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - Entry point
  *
  * Return: 0
@@ -14,7 +13,7 @@ int main(void)
 			{
 				putchar((n % 10) + '0');
 				if (n == 9)
-					break;
+					continue;
 				putchar(',');
 				putchar(' ');
 			}
