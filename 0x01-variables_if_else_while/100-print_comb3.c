@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int n1;
-	int n2;
-	for (n1 = 0; n1 < 9; n1++)
-	{
-		for (n2 == n1 + 1; n2 < 10; n2++)
-		{
-			putchar((n1 % 10) + '0');
-			putchar((n2 % 10) + '0');
+	int a, b;
 
-			if (n1 == 8 && n2 == 9)
+	for (a = 0; a < 9; a++)
+	{
+		for (b == a + 1; b < 10; b++)
+		{
+			putchar((a % 10) + '0');
+			putchar((b % 10) + '0');
+
+			if (b == 8 && b == 9)
 				continue;
 
 			putchar(',');
