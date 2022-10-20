@@ -9,9 +9,7 @@ int main(void)
 	char letter
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-	do while (a !='e' && a != 'q')
-		putchar(letter);
-
-	putchar('\n');
+	do while (letter !='e' && letter != 'q')
+		putchar(letter\n);
 	return (0);
 }
