@@ -19,7 +19,7 @@ int main(void)
 			putchar(y + '0');
 			putchar(z + '0');
 
-			if (i < 700)
+			if (w < 700)
 			{
 				putchar(44);
 				putchar(32);
