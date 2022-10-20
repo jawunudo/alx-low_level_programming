@@ -10,10 +10,10 @@ int main(void)
 	for (w = 0; w < 1000; w++)
 	{
 		x = w / 100;
-		y = (i / 10) % 10;
-		z = i % 10;
+		y = (w / 10) % 10;
+		z = w % 10;
 
-		if (x < k && y < z)
+		if (x < y && y < z)
 		{
 			putchar(x + '0');
 			putchar(y + '0');
