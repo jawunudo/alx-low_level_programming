@@ -1,11 +1,22 @@
-#include <stdio.h>
+#include <main.h>
 /**
- * main - Entry point
- *
- * Return: always 0
+ * main - Entry poin
+ * t
+ * Return: Always 0
  */
 int main(void)
 {
-	printf("_putchar\n");
+
+	char p[] = "_putchar";
+	int i = 0;
+
+	while (p[i] != '\0')
+	{
+		_putchar(p[i]);
+		i++;
+	}
+
+	_putchar('\n');
+
 	return (0);
 }
