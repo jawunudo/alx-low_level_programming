@@ -2,7 +2,6 @@
 /**
  * _abs - Prints absolute value of int
  * @i: integer to be tested
-
  * Return: 0
  **/
 
