@@ -2,7 +2,7 @@
 /**
  * _abs - Prints absolute value of int
  * int: i
- *int i: numers to be tested
+ * @i numers to be tested
 
  * Return: 0
  **/
