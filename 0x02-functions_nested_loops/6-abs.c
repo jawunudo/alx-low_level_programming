@@ -1,8 +1,9 @@
 #include"main.h"
 /**
  * _abs - Prints absolute value of int
- * int: i 
- *
+ * int: i
+ *int i: numers to be tested
+
  * Return: 0
  **/
 
