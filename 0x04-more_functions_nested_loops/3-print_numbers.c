@@ -4,18 +4,15 @@
  * print_numbers - Prints the number from 0 to 9
  * followed by a new line
  *
- * Return: 0
+ * Return: void
  */
 void print_numbers(void)
 {
 	int n;
 
-	if (n >= '0' && n <= '9')
+	for (n = 0; n < 10; n==)
 	{
-		_putchar(n);
-		n++;
+		putchar(n);
 	}
 	putchar('\n');
-
-	return (0);
 }
