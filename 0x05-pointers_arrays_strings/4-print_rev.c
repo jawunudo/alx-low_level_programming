@@ -24,3 +24,25 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+
+/**
+ * str_lenght - A function to print the lenght of a string
+ * @s: string
+ * @a - variable
+ * @lenght -variableReturn: lenght.
+ **/
+
+int str_lenght(char *s)
+{
+	int a;
+	int lenght;
+
+	a = 0;
+	lenght = 0;
+	while (s[a] != '\0')
+	{
+		++lenght;
+		a++;
+	}
+	return (lenght);
+}
