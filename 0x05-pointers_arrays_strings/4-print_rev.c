@@ -30,6 +30,7 @@ void print_rev(char *s)
  * @s: string
  * @a - variable
  * @lenght -variableReturn: lenght.
+ * Return: length
  **/
 
 int str_lenght(char *s)
