@@ -8,21 +8,26 @@ int main(void)
 {
 	int n;
 
-	while (n = 1; n <= 100; n++)
+	for (n = 1; n <= 100; n++)
 	{
-		if (n % 3 = 0)
-		{
+		if ((n % 3) == 0 && (n % 5) == 0)
+			printf("FizzBuzz");
+
+		else if ((num % 3) == 0)
 			printf("Fizz");
-		}
-		if (n % 5 = 0)
-		{
+
+		else if ((num % 5) == 0)
 			printf("Buzz");
-		}
-		if (n % 15 = 0)
-		{
-			printf("FizzBuzz")
-		}
+
+		else
+			printf("%d", num);
+
+		if (num == 100)
+			continue;
+		printf(" ");
 	}
-	printf(' ');
-	printf('\n');
+
+	printf("\n");
+
+	return (0);
 }
