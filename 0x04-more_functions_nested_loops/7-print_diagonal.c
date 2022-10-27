@@ -2,8 +2,8 @@
 /**
  * print_diagonal - draws a diagonal line in the terminal
  * @n: function argument
- * @a: aditional argument
- * @b: aditional argument
+ * @a - aditional argument
+ * @b - aditional argument
  * Return: no return value.
  */
 
