@@ -1,12 +1,8 @@
 #include "main.h"
-
 /**
  * more_numbers - Prints the numbers 0-14 ten times.
- * @num: number of counts
- * @count: counts
- *
- * Return: number of counts
  */
+
 void more_numbers(void)
 {
 	int num, count;
