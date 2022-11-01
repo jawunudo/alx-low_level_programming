@@ -1,21 +1,33 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _strchr - Entry point
+ * _strspn - Entry point
  * @s: input
- * @c: input
+ * @accept: input
  * Return: Always 0 (Success)
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
-	int i;
+	unsigned int i, n, value, check;
 
-	for (i = 0; s[i] >= '\0'; i++)
+	value = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] == c)
-			return (s + i);
+		check = 0;
+
+		for (n = 0; accept[n] != '\0'; n++)
+		{
+			if (accept[n] == s[i])
+			{
+				value++;
+				check = 1;
+			}
+		}
+
+		if (check == 0)
+			return (value);
 	}
 
-	return (NULL);
+	return (value);
 }
