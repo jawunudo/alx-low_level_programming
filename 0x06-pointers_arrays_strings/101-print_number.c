@@ -29,7 +29,7 @@ void print_number(int n)
 	while (abSCount > 0)
 	{
 		abSCount /= 10;
-		c++
+		c++;
 	}
 	for (i = 0; i < c - 1; i++)
 		mult *= 10;
@@ -41,3 +41,4 @@ void print_number(int n)
 		mult /= 10;
 	}
 }
+
