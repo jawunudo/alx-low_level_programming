@@ -41,4 +41,3 @@ void print_number(int n)
 		mult /= 10;
 	}
 }
-
