@@ -1,4 +1,4 @@
-bal  main
+global  main
 section .text
 main:
         mov     rax, 1
