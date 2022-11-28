@@ -1,16 +1,22 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
- * listint_len - compute number of elements in list `h'
- * @h: pointer to head of list
+ * add_nodeint - add new node at beginning of list pointed to by `head'
+ * @head: pointer to pointer to beginning of list
+ * @n: value with which to initialize new element
  *
- * Return: total number of nodes
+ * Return: pointer to new node
  */
-size_t listint_len(const listint_t *h)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
-	size_t i;
+	listint_t *new;
 
-	for (i = 0; h != NULL; ++i)
-		h = h->next;
-	return (i);
+	new = malloc(sizeof(listint_t));
+	if (new == NULL)
+		return (NULL);
+	new->n = n;
+	new->next = *head;
+	*head = new;
+	return (new);
 }
