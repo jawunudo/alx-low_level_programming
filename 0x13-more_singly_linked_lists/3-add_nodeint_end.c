@@ -4,7 +4,7 @@
 /**
  * add_nodeint_end - append a new node at end of list pointed to by `head'
  * @head: pointer to pointer to beginning of list
- * @n: value with which to initialize new node 
+ * @n: value with which to initialize new node
  *
  * Return: address of new node
  */
